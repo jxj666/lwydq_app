@@ -6,7 +6,8 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
-
+  title:string='瞭望阅读器';
+  content:any=[{},{},{}];
   constructor(public navCtrl: NavController) {
 
   }
